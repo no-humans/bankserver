@@ -1,0 +1,47 @@
+Mongo DB
+--------
+
+_mongoDB server
+-shell commands in mongoDB
+
+        -to see the databases
+
+            -> show dbs 
+        
+        - open databases
+
+            ->use database_name
+
+        - view  collection inside database
+
+            ->show collections
+
+        -to view datas inside collections 
+            
+            ->db.collection_name.find()
+
+        -to view any single data inside collections 
+
+            ->db.collection_name.findOne({unique data to identify})
+
+        -to insert new data 
+
+            ->db.collection_name.insertOne({data}) 
+
+        -to view any single data according to a condition
+
+            ->db.collection_name.find({condition})      all data
+            ->db.collection_name.findOne({condition})   single data 
+
+
+        -delete single data 
+        
+            ->db.collection_name.deleteOne({data})
+
+            -delete count=number
+            -delete count=0         if no data is deleted the delete count will be 0
+
+        
+        -update
+
+            ->db.collection_name.updateOne({data to be update},{new data})

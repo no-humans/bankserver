@@ -1,0 +1,54 @@
+Server Creation using Express
+-----------------
+
+    install Express
+    ----------------
+    npm i express
+
+1.  import Express
+
+2.  Create an app using Express
+
+3.  Create port number (3000 series)
+
+4.  Create requests according to our project 
+
+
+
+nodemon Server
+-----------------
+
+npm i -g
+
+user authentication using express
+--------------------------------------
+
+JWT token(json web token)
+--------------------------
+
+jasonwebtoken       -library    npm i jasonwebtoken
+sign()              -method used for generate token
+verify()            - method to verify jwt tokens
+
+Middlewares
+----------------
+
+-Middlewares have the capacity to control server requests
+-Its a function with 3 arguments (request,response,next)
+- two types
+
+        1.Application specific Middlewares
+        2.Router specific Middlewares
+
+
+Solving runtime errors in js
+-----------------------------
+
+try catch
+
+try{
+    error causing code
+}
+catch{
+    solution
+}
